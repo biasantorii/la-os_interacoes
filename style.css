@@ -1,0 +1,57 @@
+
+    body {
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      background: linear-gradient(135deg, #ff5f9c, #feb47b);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    form {
+      background: #ffffff;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(241, 12, 127, 0.2);
+      padding: 30px;
+      width: 350px;
+      max-width: 100%;
+      transform: skewY(-2deg);
+    }
+    label {
+      display: block;
+      margin-bottom: 10px;
+      font-weight: bold;
+      color: #ee96a5;
+    }
+    select {
+      width: 100%;
+      padding: 10px;
+      border: 2px solid #fe7b9c;
+      border-radius: 10px;
+      background: #fcf4f6;
+      font-size: 16px;
+      color: #0c0101;
+      margin-bottom: 20px;
+      transform: skewY(2deg);
+    }
+    select:focus {
+      outline: none;
+      border-color: #9b8e93;
+      box-shadow: 0 0 5px rgba(255, 126, 95, 0.5);
+    }
+    input[type="button"] {
+      display: block;
+      width: 100%;
+      padding: 12px;
+      border: none;
+      border-radius: 10px;
+      background-color: #ff5e83;
+      color: #ffffff;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      transform: skewY(2deg);
+    }
+    input[type="button"]:hover {
+      background-color: #e22775;
+    }
