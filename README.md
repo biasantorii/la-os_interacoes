@@ -52,4 +52,4 @@ Função para contar as opções selecionadas e exibir a contagem em um alerta
 
 
 # AUTORES
- - [Ana Beatriz Silva [https://github.com/biasantorii]
+ [Ana Beatriz Silva](https://github.com/biasantorii)
